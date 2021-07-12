@@ -1,0 +1,6 @@
+<h3 class="app-alert" [ngClass]="
+    { 'app-alert-danger': alertState === alertStatesEnum.Error,
+    'app-alert-success': alertState === alertStatesEnum.Success,
+    'app-alert-default': alertState === alertStatesEnum.Default }">
+{{ message }}
+</h3>

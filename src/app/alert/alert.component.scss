@@ -1,0 +1,22 @@
+.app-alert {
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.app-alert-danger {
+    color: darkred;
+    background-color: mistyrose;
+    border-color: maroon;
+}
+
+.app-alert-success {
+    color: greenyellow;
+    background-color: olive;
+    border-color: rebeccapurple;
+}
+
+.app-alert-default {
+    color: lightskyblue;
+    background-color: sienna;
+    border-color: steelblue;
+}
